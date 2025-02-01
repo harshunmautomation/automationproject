@@ -1,6 +1,5 @@
 package com.swres.testcases;
 
-import java.sql.Driver;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
