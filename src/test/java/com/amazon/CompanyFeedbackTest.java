@@ -8,12 +8,10 @@ import org.testng.annotations.Test;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class companyFeedback
+public class CompanyFeedbackTest
 {
 
     String companyURL="https://www.amazon.in/sp?ie=UTF8&seller=A1MJB9IA6RMQZ7";
-
-
 
 
     @Test
@@ -37,7 +35,7 @@ public class companyFeedback
             {
 
 
-                for(int i=1;i<=10;i++)
+                for(int i=1;i<=20;i++)
                 {
 
                 System.out.println(" Page Number: "+i);
